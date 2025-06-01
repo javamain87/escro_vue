@@ -3,12 +3,15 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script>
+        <!-- <script>
             if (!location.pathname.includes('.')) {
                 history.replaceState(null, '', '/');
             }
-        </script>
+        </script> -->
         <title>SecureTrade</title>
+        <!-- ✅ Google reCAPTCHA v2 (explicit rendering용) -->
+        <script src="https://www.google.com/recaptcha/api.js?render=explicit"
+            async defer></script>
     </head>
     <body>
         <div id="app"></div>

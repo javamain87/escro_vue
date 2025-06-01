@@ -9,22 +9,27 @@ const routes = [
   {
     path: '/step1',
     name: 'Step1',
-    component: () => import('@/views/Step1.vue')
+    component: () => import('@/views/payment/Step1.vue')
   },
   {
     path: '/step2',
     name: 'Step2',
-    component: () => import('@/views/Step2.vue')
+    component: () => import('@/views/payment/Step2.vue')
+  },
+    {
+    path: '/step3_login',
+    name: 'Step3Login',
+    component: () => import('@/views/payment/Step3Login.vue')
   },
   {
     path: '/step3',
     name: 'Step3',
-    component: () => import('@/views/Step3.vue')
+    component: () => import('@/views/payment/Step3.vue')
   },
   {
     path: '/success',
     name: 'Success',
-    component: () => import('@/views/Success.vue')
+    component: () => import('@/views/payment/Success.vue')
   }
 ]
 

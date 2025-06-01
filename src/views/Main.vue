@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen bg-gradient-to-b from-[#f8f9ff] to-[#e0eaff] text-[#1c1e21]"
+    class="min-h-32 bg-gradient-to-b from-[#f8f9ff] to-[#e0eaff] text-[#1c1e21]"
   >
     <section
       class="text-center py-20 px-6 bg-gradient-to-br from-[#e4efff] to-[#f8f9ff] animate-fade-in"
@@ -11,12 +11,12 @@
       <p class="text-lg mb-6">
         SecureTrade는 신뢰를 기반으로 한 프리미엄 거래 보호 서비스를 제공합니다.
       </p>
-      <a
-        href="/step1"
+      <router-link
+        to="/step1"
         class="inline-block bg-[#5c6ac4] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#4751a3] transition"
       >
         지금 거래 시작하기
-      </a>
+      </router-link>
     </section>
 
     <section
@@ -49,19 +49,9 @@
       </h3>
       <ul class="space-y-2 text-lg">
         <li>✅ SSL 암호화 통신</li>
-        <li>✅ 블록체인 해시 인증</li>
+        <!-- <li>✅ 블록체인 해시 인증</li> -->
         <li>✅ 실시간 거래 추적</li>
       </ul>
-    </section>
-
-    <section class="bg-white py-10 text-center">
-      <p class="text-lg">신뢰하는 파트너</p>
-      <div class="flex flex-wrap justify-center gap-4 mt-4">
-        <div class="bg-[#e0e0e0] px-6 py-3 rounded-md text-gray-700">Logo1</div>
-        <div class="bg-[#e0e0e0] px-6 py-3 rounded-md text-gray-700">Logo2</div>
-        <div class="bg-[#e0e0e0] px-6 py-3 rounded-md text-gray-700">Logo3</div>
-        <div class="bg-[#e0e0e0] px-6 py-3 rounded-md text-gray-700">Logo4</div>
-      </div>
     </section>
   </div>
 </template>
